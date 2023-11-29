@@ -1,3 +1,14 @@
+/* DARK MODE STYLE - EXTERN KOD */
+#content {
+  background: rgb(248, 201, 201);
+  color: black;
+}
+
+#content .dark-theme {
+  background: rgb(49, 51, 71);
+  color: white;
+}
+
 /* INDEX PAGE SPECIFIC STYLING */
 .main-frame-profile {
   width: 100%;

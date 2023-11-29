@@ -1,3 +1,4 @@
+//This code is written by myself and with a collaboration with Chat GPT
 // Function to get the API key located inside the JSON object
 async function getApiKey() {
   try {
