@@ -59,11 +59,36 @@
   padding-top: 25px;
 }
 
+.profile-buttons {
+  display: flex;
+  justify-content: center;
+}
 .frame-dwnld-btn {
   display: flex;
   justify-content: center;
   padding: 1em;
   align-self: center;
+}
+
+.nick-name-div {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  align-self: center;
+}
+
+.nick-name {
+  display: flex;
+  background-color: rgb(117, 121, 137);
+  border-radius: 5px;
+  padding: 15px;
+  height: auto;
+  width: auto;
+  color: rgb(39, 34, 34);
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .download-btn {
@@ -77,6 +102,11 @@
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nick-name:hover {
+  background-color: rgb(72, 113, 150);
 }
 
 .download-btn:hover {
